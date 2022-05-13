@@ -1,0 +1,82 @@
+body{
+  background: rgb(185,232,254);
+  background: linear-gradient(90deg, rgb(250, 244, 164) 0%, rgba(255,255,255,1) 100%);
+  width: 85%;
+  padding: 3%;
+
+}
+.image_container{
+  width: 45%;
+
+}
+
+
+img{
+  height: 185px;
+  width: 210px;
+  margin: 2rem;
+  object-fit: cover;
+  border: solid 0em;
+  line-height: 0em;
+  border-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  
+}
+
+.icon{
+  display: inline;
+}
+.hide {
+  display: none;
+}
+    
+.icon:hover + .hide {
+  display: block;
+  color: rgb(182, 37, 37);
+  font-family: 'Roboto Mono', monospace;
+}
+button{
+border: none;
+}
+#toolbar1 {
+  position: fixed;
+  display: inline;
+  width: 200px;
+  height: 800px;
+  right:2%;
+  top:0px;
+  
+  background-color: none;
+/*   opacity: 80%; */
+  color: black;
+}
+#aboutpage{
+color: black;
+letter-spacing: 1px;
+}
+p{
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  outline: 1px solid black;
+  width: 150px;
+  height: 30px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  font-family: inherit;
+}
+button:hover{
+background-color: rgb(250, 241, 231);
+}
+
+#season_show_select{
+  color: blueviolet;
+}

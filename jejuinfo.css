@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Prata&display=swap');
+@font-face {
+    font-family: "DX시인과나";
+    src: url(DXPnM-KSCpc-EUC-H.ttf) format("ttf");
+}
+@font-face {
+    font-family: "Baskerville";
+    src: url(Magnolia-Regular.ttf) format("ttf");
+}
+@font-face {
+    font-family: "Magnolia";
+    src: url(Baskerville.ttc) format("ttc");
+}
+html{
+    /* height: 2000px;
+    overflow: scroll; */
+}
+body{
+    background-color: #759268;
+    /* overflow: scroll;
+    height: 2000px; */
+}
+
+.menu{
+    z-index: -1;
+    background-color: #dad6c2;
+    position: fixed;
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    top: 30px;
+    left: 4%;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    cursor: pointer;
+    text-align: left;
+    letter-spacing: 1px;
+    font-style: italic;
+    
+}
+h3{
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+h3:hover{
+    color: yellow;
+    font-style: normal;
+}
+
+.index{
+    background-color: transparent;
+    border: 1px solid black;
+    position: fixed;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 4%;
+    border-radius: 25px;
+    top: 15%;
+    color: black;
+    text-align: center;
+}
+.title{
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    left: 0px;
+    top: 5%;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    width:100%;
+    margin: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: "Baskerville";
+    text-align: left;
+  }
+.collagepage{
+    z-index: -1;
+    background-color: transparent;
+    font-family: "Magnolia";
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.imgbox{
+    position: fixed;
+    display: inline;
+    width: 43%;
+    height: 45%;
+    left: 51%;
+    top: 15%;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    object-fit: fill;
+    z-index: -1;
+
+}
+#text{
+    font-family: "Baskerville";
+    text-align: left;
+    font-size: 20px;
+    margin: 5%;
+}
+.hide {
+    display: none;
+  }
+  
+img:hover + .hide {
+    display: block;
+    color: red;
+  }
+img{
+    width: 200px;
+    height: 170px;
+    margin-left: 35%;
+    margin-top: 15%;
+    text-align: center;
+
+}
+.infobox{
+    position: fixed;
+    display: inline;
+    width: 15%;
+    height: 65%;
+    left: 85%;
+    top: 25%;
+    background-color: rgb(255, 255, 242);
+    color: black;
+}
+  
+.jejugraphic{
+    position: absolute;
+    right: 0%;
+}
+  
+  
+  
+h1{
+    color: black;
+    font-size: 50px;
+}
+    
+.background{
+
+}
+
+button{
+    border-style: none;
+}
+.collagebutton{
+    width: 250px;
+    height: 70px;
+    border-radius: 90%;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Magnolia";
+}
+.collagebutton:hover{
+    background-color: #dad6c2;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/*  position: fixed;
+    display: inline;
+    width: 43%;
+    height: 45%;
+    left: 51%;
+    top: 15%;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    object-fit: fill;
+    z-index: -1; */
+.seasons{
+    position: fixed;
+    display: inline-block;
+    width: 43%;
+    height: 26%;
+    left: 51%;
+    top: 64%;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(102, 80, 80);
+}
+#seasonstext{
+    font-family: "Baskerville";
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    
+
+}
+.photobuttons{
+    position: absolute;
+    left: 35%;
+    letter-spacing: 30px;
+    top: 30%;
+}
+
+#featuresbutton{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Baskerville";
+    font-style: bold;
+    font-size: 17px;
+}
+#featuresbutton:hover{
+    background-color: #dad6c2;
+}
+#seasonsbutton{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Baskerville";
+    font-style: bold;
+    font-size: 17px;
+
+}
+#seasonsbutton:hover{
+    background-color: #dad6c2;
+}
+#timebutton{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Baskerville";
+    font-style: bold;
+    font-size: 17px;
+}
+#timebutton:hover{
+    background-color: #dad6c2;
+}
+.collage{
+    position: fixed;
+    display: inline;
+    width: 45%;
+    height: 550px;
+    left: 55%;
+    top: 425px;
+    padding-top: 20px;
+    margin:0 auto;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    border-radius: 100px;
+}
+
+

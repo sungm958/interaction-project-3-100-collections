@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="collagepage.css">
+
+
+</head>
+
+<body>
+    
+    <div id="toolbar1">
+        <br />
+        <p>
+        &nbsp &nbsp &nbsp &nbspseasons
+        </p>
+        <button id="spring" value="spring" onclick="seasonSearch('spring')" onclick="myFunction()">🌷</button><br />
+        <button id="summer" value="summer" onclick="seasonSearch('summer')">🌞</button><br />
+        <button id="fall" value="fall" onclick="seasonSearch('fall')">🍁</button><br />
+        <button id="winter" value="winter" onclick="seasonSearch('winter')">⛄️</button><br />
+        <br />
+        <p>
+        &nbsp &nbsp &nbsp &nbspfeatures
+        </p>
+        <button id="sky" value="sky" onclick="featureSearch('sky')">☁️</button><br />
+        <button id="ocean" value="ocean" onclick="featureSearch('ocean')">🌊</button><br />
+        <button id="ground" value="ground" onclick="featureSearch('ground')">🏖</button><br />
+        <button id="tree" value="tree" onclick="featureSearch('tree')">🌴</button><br />
+        <button id="mountain" value="mountain" onclick="featureSearch('mountain')">🏔</button><br />
+        <br />
+        <p>
+        &nbsp &nbsp &nbsp &nbsp &nbsptime
+        </p>
+        <button id="day" value="day" onclick="timeSearch('day')">🌤</button><br />
+        <button id="night" value="night" onclick="timeSearch('night')">🌙</button><br />
+        
+        <br>
+        <p>
+        &nbsp &nbsp &nbsp &nbsprefresh
+          </p>
+          <button id="refresh" onclick="refreshPage()">🔄</button><br />
+          <button id="refresh" onclick="refreshPage()"><a href="index.html">🏠</a></button><br />
+      </div>
+
+    <!-- dropdown menu -->
+    <!-- <select id="season_show_select"></select> -->
+
+     <div id="image_container"></div>
+    <!-- <button id="change_border_color">about this project</button> -->
+
+    <script src="collagepage.js"></script>
+</body>
+</html>
